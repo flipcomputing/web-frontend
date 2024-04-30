@@ -1,5 +1,6 @@
 # Web frontend Bootcamp
 
+This Unit continues the Northern Store scenario that started in Unit 3. This repository holds the files needed for the Web frontend Unit (they are a snapshot from the completion point of the Database Unit).
 
 ---
 ## Table of contents
@@ -16,8 +17,6 @@
 	- [Back-End](#back-end)
 	- [Installing PostgreSQL Locally](#installing-postgresql-locally)
 ---
-- [Useful resources](#useful-resources)
-- [Author](#author)
 - [Acknowledgments](#acknowledgments)
 ---
 
@@ -169,14 +168,6 @@ Follow the steps to set:
 
 ![](images/PostgreSQLLogin.jpg)
 
----
-
-&nbsp;
-# Useful resources
-
-- [Sequel-Mart course](https://github.com/MCR-Digital/apprentice-boot-camp-databases)
-- [PostgreSQL v13 Documentation](https://www.postgresql.org/docs/13/index.html)
-- [PostgreSQL system tables](https://www.postgresql.org/docs/9.1/catalogs.html)
 
 ---
 
