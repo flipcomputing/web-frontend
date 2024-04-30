@@ -1,0 +1,14 @@
+GET http://localhost:5001/products_id
+
+###
+
+POST http://localhost:5001/offers  HTTP/1.1
+content-type: application/json
+
+{
+  "offer_name": "Introductory Discount 3",
+  "product_id": 25,
+  "offer_discount_percentage": 10,
+  "offer_start_date": "2024-09-01",
+  "offer_end_date": "2024-09-30"
+}
