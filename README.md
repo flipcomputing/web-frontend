@@ -1,24 +1,8 @@
-# Database Bootcamp 2021
+# Web frontend Bootcamp
 
-## Competencies, Behaviours and Knowledge units
-
-These relate to the KSBs defined in the [Level 4 Software Developer standard](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1).
-
-* **K10**: principles and uses of relational and non-relational databases
-* **S3**: link code to data sets
 
 ---
 ## Table of contents
----
-- [Project Slides](#project-slides)
-- [Overview](#overview)
-- [Screenshot](#screenshot)
----
-- [What you can expect](#what-you-can-expect)
-	- [Day 1](#day-1)
-	- [Day 2](#day-2)
-	- [Timing and Breaks](#timing-and-breaks)
-	- [General Advice for the Bootcamp](#general-advice-for-the-bootcamp)
 ---
 - [Essential Tools](#essential-tools)
 - [Optional Tools](#optional-tools)
@@ -37,101 +21,7 @@ These relate to the KSBs defined in the [Level 4 Software Developer standard](ht
 - [Acknowledgments](#acknowledgments)
 ---
 
-&nbsp;
 
-# Project Slides
-- The full slide deck for the project is [available from the following link](https://mcr-digital.github.io/apprentice-boot-camp-databases/public/slides/slide_000/)
-
----
-
-# Overview
-- A sample database back-end, based on a fictional retail company  called `Sequel-Mart`.
-- A basic front-end using vanilla HTML, CSS & Javascript with Express.
-- This project aims to show how a basic database-driven relationship to a back-end web server could be managed.
-
----
-
-# Screenshot
-
-Completed Sequel-Mart project web page:
-![Sequel-Mart-Finished-Project](https://user-images.githubusercontent.com/60580622/139313616-0d045bb2-a4e9-4cf7-84ff-cfd7b1e27272.png)
-
-&nbsp;
-
----
-# What you can expect
-
-## Day 1
-### Section 1 (What are databases?)
-- Introduction & [Set-up via Github and Docker]((#installing-the-database-and-website-services)).
-	+ If you can complete the setup beforehand, that will help us make a prompt start to the boot-camp 
-- How databases fit into a front-end / back-end architecture
-- Fundamental concepts of databases (Data Types, ERDs)
-- Introduction to PostgreSQL's interface
-
-### Section 2 (Querying a relational database - **CR**UD)
-- Read (`SELECT` `FROM`, `WHERE`, `LIMIT`, `ORDER BY`, `GROUP BY`, `HAVING`)
-- Joining (`INNER JOIN`, `LEFT OUTER JOIN`)
-
-### Section 3 (Changing content in a relational database - CR**UD**)
-- Create (`CREATE TABLE`)
-- Update (`INSERT`, `UPDATE`)
-- Delete (`DELETE`, `TRUNCATE`, `DROP`)
-- Changing column details (`ALTER ...`)
-
----
-## Day 2
-
-### Section 4 (Streamlining - making a relational database more efficient)
-- System Tables
-- Speeding up queries
-- `CREATE INDEX`, `CREATE VIEW`, `CREATE PROCEDURE`, Transactions
-- SQL Injection
-
-### Section 5 (Sequel-Mart)
-- Project structure
-- Routing
-
-### Section 6 (Exercises)
-- Creating queries to populate the following routes:
-	- Transaction *(most recent 10)*
-	- Customers *(top 10 by average spend)*
-	- Products *(top 10 by items sold)*
-	- Summary *(6x headline cards at the top of the example web-page)*
-
----
-## Timing and Breaks
-- Morning = 09:30am - 12:30pm
-- Lunch		= 12:30pm - 1:30pm
-- Afternoon = 1:30pm - 4:30pm
-
-Trying to absorb a lot of information in a short time can be exhausting. We will be aiming for 45 minutes of work followed by 15 minute breaks.
-
-Get away from the monitor and take a real break. Pairing or not, taking breaks is important and increases productivity.
-
-&nbsp;
-
----
-## General Advice for the Bootcamp
-
-### Breakout rooms
-There is no better way to learn a craft than to get stuck in and practice, practice, practice!  Collaborating and bouncing ideas off each other helps too.
-
-The first section is all theory but after that there will be regular sets of exercises.  These exercises are an opportunity to split into groups, try to answer them, then come back together to fill in any gaps in our knowledge.
-
-### Camera Always On If Working Remotely
-
-Working face-to-face is powerful because we communicate with the whole body, not just our words. And we are much more attentive because any distraction like looking at the smartphone during a discussion will be detected immediately.
-
-So would advise activate our cameras all the time.
-
-### Whiteboard
-
-In the absence of physical collaboration on a whiteboard, a tool like [Miro](https://miro.com/) is a reasonable alternaive. You can share the Miro board in a video conference, so that everyone puts their focus on the same section of the board.
-
-&nbsp;
-
----
 # Essential Tools
 - A [GitHub account](https://github.com)
 - A code editor (e.g. [VS Code](https://code.visualstudio.com/download))
@@ -142,19 +32,9 @@ In the absence of physical collaboration on a whiteboard, a tool like [Miro](htt
 	+ This will enable you to collaborate with other students and mentors on the channel set up for the bootcamp
 
 
-## Optional Tools
-
-- [Zoom](https://zoom.us/download)
-	+ If you are taking this bootcamp remotely you will need to be able to access the session live via our Zoom meeting link (provided separately)
-
-&nbsp;
-
 ---
 # Installing the Database and Website Services
 This section contains a step-by-step guide to installing everything you need to successfully complete the exercises in this boot-camp.
-
-These instructions are also available in the [Slide deck - Setting up the Project](https://mcr-digital.github.io/apprentice-boot-camp-databases/public/slides/slide_005/)
-&nbsp;
 
 ## Clone the Repository Locally
 ### 1.0 Clone the Repository
@@ -162,12 +42,12 @@ These instructions are also available in the [Slide deck - Setting up the Projec
 - Create a folder anywhere on one of your local hard-drives
 - Open your preferred code editor and run
 ```
-git clone https://github.com/MCR-Digital/apprentice-boot-camp-databases.git
+git clone https://github.com/flipcomputing/web-frontend.git
 ```
 - This will copy the files from the repo above onto your machine.
 - Access the root folder
 ```
-cd .\apprentice-boot-camp-databases\
+cd .\web-frontend\
 ```
 
 ## Docker Compose
@@ -300,14 +180,7 @@ Follow the steps to set:
 
 ---
 
-&nbsp;
-# Author
-
-[Thomas Steeples (course created while working for Zuto)](https://github.com/Tom-S82/sequel-mart)
-
----
-
-&nbsp;
 # Acknowledgments
-- A big thanks to all of the mentors at Manchester Digital who have helped with the final delivery of this course material, and for mentoring the students.
-- Thanks also to [Zuto](https://www.zuto.com/) for supporting Manchester Digital, and for allowing me the time to put this course together.
+- Huge thanks to [Thomas Steeples](https://github.com/Tom-S82/sequel-mart)
+for creation of the original Database Unit on which this web-frontend Unit builds
+- Thanks also to [Zuto](https://www.zuto.com/) for supporting Manchester Digital, and for allowing Tom the time to put the Database Unit together.
