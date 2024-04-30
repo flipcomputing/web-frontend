@@ -1,4 +1,4 @@
-- Add `frontend-dashboard/src/components.js`
+- Update `frontend-dashboard/src/App.js`
 
 ```
 import React from 'react';
@@ -32,16 +32,22 @@ function Header() {
 }
 
 export default App;
+
+- Reload `localhost:3000`
+
+The images and css file are missing.
+
+- Copy the `img` folder and `styles.css` from `frontend/src` to `frontend-dashboard/src``
+
 ```
 
-- Update `index.js`
+- Update `index.js` to use `./styles.css`
 
 ```
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles.css';
-import App from './components';
-import reportWebVitals from './reportWebVitals';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -49,16 +55,6 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
 ```
-- Reload `localhost:3000`
 
-The images and css file are missing. 
-
-- Copy the `img` folder and `styles.css` from `frontend/src` to `frontend-dashboard/src`
-
-- Reload `localhost:3000`
+- Reload `localhost:3000
