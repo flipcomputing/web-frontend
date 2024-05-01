@@ -1,13 +1,13 @@
 
 - In `frontend-dashboard/src/App.js`, add a `backend` variable using the port you are using.
 
-```
+```javascript
 const backend = "http://localhost:5001";
 ```
 
 - In the same file, replace the `useEffect` code in your `SummaryData` component to `fetch` the data.
 
-```
+```jsx
  useEffect(() => {
     fetch(`${backend}/summary`)
       .then(response => response.json()) // parse the JSON response
