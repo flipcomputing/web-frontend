@@ -1,6 +1,6 @@
 - Create `backend\routes\offers.js`
 
-```
+```jsx
 //Route into the database to retrieve customer information
 
 const express = require('express');
@@ -49,7 +49,7 @@ app.use('/offers', ordersRouter);
 - Test with REST Client
 - Add to `restrequests.http`
 
-```
+```jsx
 ###
 
 POST http://localhost:5001/offers  HTTP/1.1
