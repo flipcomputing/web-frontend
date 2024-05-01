@@ -3,7 +3,7 @@
 
 Add view in pgAdmin
 
-```
+```sql
 CREATE VIEW "sequel-mart-schema".v_Product_Details
 AS
 SELECT product_id, product_item FROM "sequel-mart-schema"."Products"
@@ -11,7 +11,7 @@ SELECT product_id, product_item FROM "sequel-mart-schema"."Products"
 
 - Add file `backend\routes\products_id.js`
 
-```
+```jsx
 //Route into the database to retrieve customer information
 
 const express = require('express');
@@ -43,7 +43,7 @@ module.exports = router;
 - Add to the end of `backend\app.js`
 - You may need to restart the server
 
-```
+```jsx
 //Products with ID Route - Enable the data to be picked up from the router that contains the SQL code
 const productsIDRouter = require('./routes/products_id');
 app.use('/products_id', productsIDRouter);
