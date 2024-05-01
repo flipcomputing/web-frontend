@@ -1,6 +1,6 @@
 - Update `frontend-dashboard/src/App.js`
 
-```
+```jsx
 import React from 'react';
 
 function App()  {
@@ -43,7 +43,7 @@ The images and css file are missing.
 
 - Update `index.js` to use `./styles.css`
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles.css';
