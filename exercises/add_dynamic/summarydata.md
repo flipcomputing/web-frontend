@@ -2,7 +2,7 @@
 - In `frontend-dashboard/src/App.js`, add a `backend` variable using the port you are using.
 
 ```
-const backend = "localhost:5001"
+const backend = "http://localhost:5001";
 ```
 
 - In the same file, replace the `useEffect` code in your `SummaryData` component to `fetch` the data.
