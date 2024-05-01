@@ -40,7 +40,7 @@ module.exports = router;
 - Add to the end of `backend\app.js`
 - You may need to restart the server
   
-```
+```jsx
 //Offers Route - Enable the data to be picked up from the router that contains the SQL code
 const ordersRouter = require('./routes/offers');
 app.use('/offers', ordersRouter);
