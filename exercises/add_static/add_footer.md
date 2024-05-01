@@ -2,4 +2,3 @@
 
 - *Tip:* Remember to use `className` instead of `class`.
 
-- 
