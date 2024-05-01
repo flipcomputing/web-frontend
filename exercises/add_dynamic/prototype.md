@@ -1,12 +1,12 @@
 - In `frontend-dashboard/src/App.js`, update line 1 which imports the react library
 
-  ```
+```javascript
 import React, { useState, useEffect } from 'react';
-  ```
+```
 
 - Add a new component in the same file
 
-```
+```jsx
 function SummaryData() {
   const [summaryData, setSummaryData] = useState(null);
 
@@ -68,7 +68,7 @@ function SummaryData() {
 ```
 - Include the component in your App
 
-```
+```jsx
 function App()  {
       return <div className="container">
              <Header />
