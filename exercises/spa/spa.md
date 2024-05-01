@@ -12,7 +12,7 @@ function App()  {
           <BrowserRouter>           
             <Routes>
             <Route path="/" element={<Stores />} />
-            <Route path="/order" element={<Orders />} />
+            <Route path="/offers" element={<Offers />} />
           </Routes>
           </BrowserRouter>
           </div>
@@ -50,7 +50,7 @@ function Header() {
 </li>
 <li className="navbar-item">Products</li>
 <li className="navbar-item">
-<Link to="/offer">Offers</Link>
+<Link to="/offers">Offers</Link>
 </li>
 <li className="navbar-item">
 </li>
