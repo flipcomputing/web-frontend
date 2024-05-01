@@ -47,12 +47,7 @@ function OffersForm() {
       },
       body: JSON.stringify(requestBody)
     })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Failed to add offer.');
-      }
-      return response.json();
-    })
+    .then(response => response.json())
     .then(data => {
       setResponseMessage('Offer added successfully!');
       console.log(data);
@@ -61,7 +56,7 @@ function OffersForm() {
       setResponseMessage('Failed to add offer.');
       console.error('Error:', error);
     });
-  };  
+  };
 
   return (
     <div>
