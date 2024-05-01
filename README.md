@@ -58,7 +58,7 @@ Three services are defined in `docker-compose.yml`:
 	- This runs a postgres database
   - Data is persisted between runs
 2. `populate-database`
-	- This runs another postgres container which is only used to import the data in `/database_backups/sequel-mart-20210919-complete`
+	- This runs another postgres container which is only used to import the data in `/database_backups/u6-starter`
   	- This only runs when the `initialise` profile is specified, so that it doesn’t have to run every time (otherwise it would try to recreate the database each time).
 3. `app`
 	- This runs the application within a node image
